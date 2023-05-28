@@ -12,6 +12,6 @@ class VardumpServiceProvider extends ServiceProvider{
     }
 
     public function register(){
-        require_once __DIR__.'/src/app/Helpers/vardump.php';
+        require_once __DIR__.'/app/Helpers/vardump.php';
     }
 }

@@ -17,7 +17,7 @@
             "Helloarman\\Vardump\\": "src/"
         },
         "files": [
-            "app/helpers/vardump.php"
+            "src/app/helpers/vardump.php"
         ]
     }
 }
