@@ -6,7 +6,9 @@ use Illuminate\Support\ServiceProvider;
 
 class VardumpServiceProvider extends ServiceProvider{
     public function boot(){
-        //
+        Blade::directive('ar', function ($expression) {
+            return "<?php ar($expression); ?>";
+        });
     }
 
     public function register(){
