@@ -14,7 +14,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Helloarman\\Vardump\\": "src/"
+            "Helloarman\\Vardump\\": "src/",
+            "Helloarman\\Vardump\\Providers\\": "src/Providers/"
         },
         "files": [
             "src/app/helpers/vardump.php"
