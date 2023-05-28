@@ -3,7 +3,6 @@
     "description": "This will help you to use var_dump() and print_r() on your blade with the <pre> tag. People who are familiar with these php functions will benefit from this.",
     "keywords": ["laravel","php",  "vardump", "debugging", "development"],
     "type": "library",
-    "version": "1.0.2",
     "license": "MIT",
     "authors": [
         {
