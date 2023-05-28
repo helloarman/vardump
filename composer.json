@@ -1,0 +1,22 @@
+{
+    "name": "helloarman/vardump",
+    "description": "This will help you to use var_dump() and print_r() on your blade with the <pre> tag. People who are familiar with these php functions will benefit from this.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arman Rahman",
+            "email": "armanrahman0@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Helloarman\\Vardump\\": "src/"
+        },
+        "files": [
+            "app/helpers/vardump.php"
+        ]
+    }
+}
