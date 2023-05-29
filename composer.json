@@ -4,7 +4,6 @@
     "keywords": ["laravel","php",  "vardump", "debugging", "development"],
     "type": "library",
     "license": "MIT",
-    "version": "1.0",
     "authors": [
         {
             "name": "Arman Rahman",
