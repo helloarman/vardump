@@ -4,6 +4,7 @@
     "keywords": ["laravel","php",  "vardump", "debugging", "development"],
     "type": "library",
     "license": "MIT",
+    "version": "1.0",
     "authors": [
         {
             "name": "Arman Rahman",
@@ -12,10 +13,19 @@
     ],
     "minimum-stability": "stable",
     "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Helloarman\\Vardump\\VardumpServiceProvider"
+            ],
+            "aliases": {
+                "Vardump": "Helloarman\\Vardump\\Vardump"
+            }
+        }
+    },
     "autoload": {
         "psr-4": {
-            "Helloarman\\Vardump\\": "src/",
-            "Helloarman\\Vardump\\Providers\\": "src/Providers/"
+            "Helloarman\\Vardump\\": "src/"
         },
         "files": [
             "src/app/helpers/vardump.php"

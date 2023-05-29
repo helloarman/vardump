@@ -1,17 +1,17 @@
 <?php
 
 namespace Helloarman\Vardump;
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
-use Helloarman\Vardump\app\Providers\BladeDirectiveServiceProvider;
 
 class VardumpServiceProvider extends ServiceProvider{
     public function boot(){
-        //
+        Blade::directive('ar', function ($expression) {
+            return "<?php ar($expression); ?>";
+        });
     }
 
     public function register(){
         require_once __DIR__.'/app/Helpers/vardump.php';
-
-        $this->app->register(BladeDirectiveServiceProvider::class);
     }
 }
