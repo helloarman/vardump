@@ -16,7 +16,7 @@
         "laravel": {
             "providers": [
                 "Helloarman\\Vardump\\VardumpServiceProvider"
-            ]
+            ] 
         }
     },
     "autoload": {
